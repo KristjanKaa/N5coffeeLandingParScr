@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playpen Sans", cursive;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url("../img/Pilt1.jpg");
+    background-size: cover;
+     background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    background-color: #a37b466a;
+    border: 2px solid #a37b46;
+    color: #b2818e;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    background-color: #221b178c;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 0 15rem;
+}
+
+.intro-image__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url("../img/Pilt2.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a {
+    background-color: #3e8d7796;
+    border: 2px solid #a37b46;
+    color: #bf4364;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.quality-text {
+    background-color: #ec5a06b1;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+
+.origin-text {
+    background-color: #6140b5c4;
+    color: rgb(207, 207, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 0 15rem;
+}
+
+.origin-image__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url("../img/Pilt3.jpg");
+    background-size: cover;
+     background-position: bottom;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a {
+    background-color: #100a456c;
+    border: 2px solid #a37b46;
+    color: #ca6983;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    height: 250px;
+    background-color: rgba(0, 255, 255, 0.607);
+    color: #bf4364;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #4e26acd0;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
+
+
